@@ -1,4 +1,5 @@
-# MyBB-GoMobile
+# MyBB-GoMobile 1.4
+--------------------
 MyBB GoMobile free mobile solution for MyBB Forums
 
 
@@ -7,6 +8,7 @@ It is My latest version of MyBB Gomobile which is forked by Orginal myBB
 Gomobile by Jason liehr on Github. I modified it and its theme to be best
 work on mybb 1.8X. What is fixed in this plugin?
 Switching versions is now working
+New Redesign with bootstrap
 Added a custom 404 error page
 Quote system is fully working
 Registration and login bugs are fixed

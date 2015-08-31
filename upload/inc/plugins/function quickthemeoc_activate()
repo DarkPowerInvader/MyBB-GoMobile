@@ -1,0 +1,15 @@
+function quickthemeoc_activate()
+{
+	global $db;
+
+	require MYBB_ROOT.'/inc/adminfunctions_templates.php';
+	find_replace_templatesets("footer", '#'.preg_quote('<!-- End powered by -->').'#', '<!-- End powered by --><quickthemeoc>');
+}
+
+function quickthemeoc_deactivate()
+{
+	global $db;
+
+	require  MYBB_ROOT.'/inc/adminfunctions_templates.php';
+	find_replace_templatesets("footer", '#'.preg_quote('<quickthemeoc>').'#', '', 0);
+}
