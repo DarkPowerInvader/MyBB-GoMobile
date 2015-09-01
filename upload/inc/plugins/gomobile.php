@@ -1,6 +1,6 @@
 <?php
 /*
-* MyBB GoMobile - 1.3
+* MyBB GoMobile - 1.4
 * Licensed under GNU/GPL v3
 */	// Disallow direct access to this file for security reasons
 	
@@ -24,7 +24,7 @@
 	// Plugin information
 	function gomobile_info(){
 		// Plugin information
-		return array('name'=> 'MyBB GoMobile modified','description'=> 'The free mobile solution for MyBB Forums.',"website"=> "http://www.mybbgm.com","author"=> "MyBB GoMobile","authorsite"=> "http://www.mybbgm.com","version"=> "1.3","compatibility" => "18*");
+		return array('name'=> 'MyBB GoMobile modified','description'=> 'The free mobile solution for MyBB Forums.',"website"=> "http://www.mybbgm.com","author"=> "MyBB GoMobile","authorsite"=> "http://www.mybbgm.com","version"=> "1.4","compatibility" => "18*");
 	}
 
 	// Installation functions
