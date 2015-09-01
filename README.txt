@@ -31,6 +31,13 @@ Read ME
 
 
 
+DEMO
+--------
+- You can find the working demo of this plugin at http://mybbgm.0demo.gq
+- If you have best and working demo of this plugin feel free to add it on
+  this list of github readme.txt
+- Users are free to create their own demos with this plugin
+
 
 
 WARNINGS: PLEASE READ BEFORE INSTALLING
