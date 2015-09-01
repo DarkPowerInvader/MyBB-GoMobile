@@ -3,6 +3,8 @@
 MyBB GoMobile free mobile solution for MyBB Forums
 
 
+
+GENERAL INFO
 ______________________________________________________________________
 It is My latest version of MyBB Gomobile which is forked by Orginal myBB
 Gomobile by Jason liehr on Github. I modified it and its theme to be best
