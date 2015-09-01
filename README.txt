@@ -9,6 +9,7 @@ Gomobile by Jason liehr on Github. I modified it and its theme to be best
 work on mybb 1.8X. What is fixed in this plugin?
 Switching versions is now working
 New Redesign with bootstrap
+Added Font awesome icons in theme
 Added a custom 404 error page
 Quote system is fully working
 Registration and login bugs are fixed
