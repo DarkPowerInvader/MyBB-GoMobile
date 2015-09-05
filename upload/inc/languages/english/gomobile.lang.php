@@ -1,6 +1,6 @@
 <?php
 /*
-* MyBB GoMobile - 1.3 Language File
+* MyBB GoMobile - 1.4 Language File
 * Licensed under GNU/GPL v3
 */
 
@@ -42,7 +42,7 @@ $l['gomobile_post_warn'] = "Warn";
 $l['gomobile_post_pm'] = "PM";
 $l['gomobile_page'] = "Page:";
 $l['gomobile_of'] = "of";
-$l['gomobile_copyrights'] = "<a href='http://mybbgm.com' rel="nofollow" target='_blank'>MyBB Mobile Version</a>.";
+$l['gomobile_copyrights'] = "<a href='http://mybbgm.com' rel='nofollow' target='_blank'>MyBB Mobile Version</a>.";
 $l['gomobile_showsig'] = "Display your Signature?";
 $l['gomobile_disablesmilies'] = "Disable smilies in this message?";
 $l['gomobile_savecopy'] = "Save a copy?";
