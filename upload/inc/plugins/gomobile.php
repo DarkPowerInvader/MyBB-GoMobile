@@ -2,7 +2,8 @@
 /*
 * MyBB GoMobile - 1.4
 * Licensed under GNU/GPL v3
-*/	// Disallow direct access to this file for security reasons
+*/
+// Disallow direct access to this file for security reasons
 	
 	if(!defined("IN_MYBB")){
 		die("Direct initialization of this file is not allowed.<br /><br />Please make sure IN_MYBB is defined.");
@@ -24,7 +25,14 @@
 	// Plugin information
 	function gomobile_info(){
 		// Plugin information
-		return array('name'=> 'MyBB GoMobile modified','description'=> 'The free mobile solution for MyBB Forums.',"website"=> "http://www.mybbgm.com","author"=> "MyBB GoMobile","authorsite"=> "http://www.mybbgm.com","version"=> "1.4","compatibility" => "18*");
+		return array(
+			"name"            => "MyBB GoMobile modified",
+			"description"     => "The free mobile solution for MyBB Forums.",
+			"website"         => "http://www.mybbgm.com",
+			"author"          => "MyBB GoMobile",
+			"authorsite"      => "http://www.mybbgm.com",
+			"version"         => "1.4",
+			"compatibility"   => "18*");
 	}
 
 	// Installation functions
@@ -78,7 +86,14 @@
 			$contents = @file_get_contents($theme);
 			
 			if($contents){
-				$options = array('no_stylesheets' => 0,'no_templates' => 0,'version_compat' => 1,'parent' => 1,'force_name_check' => true,);
+				$options = array(
+					'no_stylesheets' => 0,
+					'no_templates' => 0,
+					'version_compat' => 1,
+					'parent' => 1,
+					'force_name_check' => true,
+					);
+					
 				require_once MYBB_ADMIN_DIR."inc/functions_themes.php";
 				$theme = import_theme_xml($contents, $options);
 			}
